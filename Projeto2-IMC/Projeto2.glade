@@ -4,6 +4,7 @@
   <requires lib="gtk+" version="3.24"/>
   <object class="GtkWindow" id="main_window">
     <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Projeto2 IMC</property>
     <signal name="destroy" handler="on_main_window_destroy" swapped="no"/>
     <child>
       <object class="GtkBox">
@@ -73,6 +74,7 @@
             <property name="receives-default">True</property>
             <property name="halign">start</property>
             <property name="valign">start</property>
+            <property name="margin-left">5</property>
             <signal name="clicked" handler="on_butao_clicked" swapped="no"/>
           </object>
           <packing>
@@ -83,12 +85,16 @@
         </child>
         <child>
           <object class="GtkLabel" id="resultado">
+            <property name="height-request">60</property>
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="halign">start</property>
             <property name="valign">start</property>
-            <property name="label" translatable="yes">Paulo</property>
+            <property name="margin-right">10</property>
+            <property name="margin-top">5</property>
+            <property name="label" translatable="yes">Digite seu peso e altura</property>
+            <property name="justify">center</property>
             <property name="ellipsize">start</property>
+            <property name="angle">2</property>
           </object>
           <packing>
             <property name="expand">False</property>
