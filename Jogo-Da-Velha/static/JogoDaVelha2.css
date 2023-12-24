@@ -1,0 +1,13 @@
+*{
+    font-size: 32px;
+	font-weight: bold;
+}
+
+#reset{
+    background:grey;
+    border-radius: 50%;
+}
+
+#reset:hover{
+    background:blue;
+}
