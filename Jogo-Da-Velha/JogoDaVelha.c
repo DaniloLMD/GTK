@@ -217,7 +217,6 @@ void on_main_window_destroy(GtkWidget *widget, gpointer data){
 void on_reset_clicked(GtkWidget *widget, gpointer data){
     inicializa_matriz();
     teve_ganhador = 0;
-
     GtkButton *button_0_0 = GTK_BUTTON(gtk_builder_get_object(builder, "butao_0_0"));
     GtkButton *button_0_1 = GTK_BUTTON(gtk_builder_get_object(builder, "butao_0_1"));
     GtkButton *button_0_2 = GTK_BUTTON(gtk_builder_get_object(builder, "butao_0_2"));

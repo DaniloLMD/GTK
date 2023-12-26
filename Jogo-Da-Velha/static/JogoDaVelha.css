@@ -3,11 +3,31 @@
 	font-weight: bold;
 }
 
+#main_window{
+    background: green;
+}
+
 #reset{
-    background:grey;
-    border-radius: 50%;
+    background:rgb(28, 28, 28);
 }
 
 #reset:hover{
-    background:blue;
+    background:rgb(143, 142, 142);
+    color: black;
+}
+
+#fundo{
+    background: rgb(47, 46, 46);    
+}
+
+#butao{
+    background: rgb(143, 142, 142);
+}
+
+.label{
+    color: rgb(191, 186, 186);
+}
+
+#agride{
+    padding: 100px;
 }
