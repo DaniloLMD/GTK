@@ -97,19 +97,14 @@ void on_botao_cadastrar_clicked(){
     proximo_user = proximo_user->proximo;   
 }
 
-int aa = 0;
 void on_botao_listar_clicked(){
-    printf("proximo_user = %p\n", proximo_user);                
     proximo_user->proximo = NULL;
     proximo_user = cabecalho_user;
 
     GtkTreeIter iter;
     gtk_list_store_clear(modelo_armazenamento);
     while(proximo_user->proximo != NULL){
-        g_print("id: %d | nome: %s | email: %s\n", proximo_user->id, proximo_user->nome, proximo_user->email);
-        //printf("iter = %p\n", iter);
         gtk_list_store_append(modelo_armazenamento, &iter);
-        //printf("iter = %p\n", iter);
         gtk_list_store_set(modelo_armazenamento, &iter,
             0, proximo_user->id,
             1, proximo_user->nome,
@@ -118,9 +113,6 @@ void on_botao_listar_clicked(){
         );
         proximo_user = proximo_user->proximo;
     }
-
-    printf("proximo_user = %p\n", proximo_user);
-
 }
 
 void on_main_window_destroy(GtkWidget* widget, gpointer data;){
