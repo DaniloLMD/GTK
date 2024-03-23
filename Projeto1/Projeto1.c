@@ -20,10 +20,15 @@ int main(int argc, char* argv[]){
 
     GtkBuilder *builder = gtk_builder_new_from_file("Projeto1.glade");
 
-    gtk_builder_add_callback_symbols(builder, "on_botao_clicked", G_CALLBACK(on_botao_clicked),
+    //sinais com as respectivas funcoes que eles devem chamar
+    gtk_builder_add_callback_symbols(
+        builder,
+        "on_botao_clicked", G_CALLBACK(),
         "on_main_window_destroy", G_CALLBACK(on_main_window_destroy), 
-        NULL);
+        NULL
+    );
 
+    //conectando os sinais
     gtk_builder_connect_signals(builder, NULL);
  
     label = GTK_LABEL(gtk_builder_get_object(builder, "label"));
