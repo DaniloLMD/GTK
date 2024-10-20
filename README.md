@@ -4,7 +4,7 @@ Esse projeto foi desenvolvido com o intuito de aprender, divulgar e ensinar o bÃ
 ## Tecnologias usadas
 
 <div align="center">
-  <a href="https://skillicons.dev">
+  <a href="https://skillicons.dev" target="_blank">
     <img src="https://skillicons.dev/icons?i=c,cmake,cpp,html,css&theme=dark" alt="Tecnologias usadas" />
     <br>
     <img src="GTK.png" alt="Tecnologias usadas" />
