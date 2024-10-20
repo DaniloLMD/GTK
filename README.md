@@ -5,7 +5,7 @@ Esse projeto foi desenvolvido com o intuito de aprender, divulgar e ensinar o bÃ
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cmake,cpp&theme=dark" alt="Tecnologias usadas" />
+    <img src="https://skillicons.dev/icons?i=c,cmake,cpp,html,css&theme=dark" alt="Tecnologias usadas" />
     <br>
     <img src="GTK.png" alt="Tecnologias usadas" />
   </a>
