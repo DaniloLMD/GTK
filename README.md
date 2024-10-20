@@ -1,4 +1,4 @@
-# SDL2
+# GTK
 Esse projeto foi desenvolvido com o intuito de aprender, divulgar e ensinar o básico de GTK, uma biblioteca para interface gráfica nas linguagens C/C++.
 
 ## Tecnologias usadas
